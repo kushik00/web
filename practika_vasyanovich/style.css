@@ -1,0 +1,174 @@
+body {
+  background-color: #C9A5AA;
+  font-family: 'Inter', Arial, sans-serif;
+  color: #111111;
+  margin: 0;
+  padding: 20px 0;
+  line-height: 1.5;
+}
+
+.site-header {
+  max-width: 720px;
+  margin: 0 auto 20px auto;
+}
+
+.main-nav {
+  background-color: #f3dfdf;
+  border-radius: 12px;
+  padding: 10px 20px;
+}
+
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav li:hover {
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+
+.main-nav a:link,
+.date-badge a:link {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.main-nav a:visited,
+.date-badge a:visited {
+  color: #103d82;
+}
+
+.main-nav a:hover,
+.date-badge a:hover {
+  color: #52a3e0;
+  text-decoration: underline;
+}
+
+.main-container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.article-wrapper {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 40px 40px 0 40px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+}
+
+.date-badge {
+  width: 96%;
+  font-size: 12px;
+  color: #666666;
+  background-color: #E9E9E9;
+  padding: 4px 12px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.main-title {
+  font-size: 42px;
+  font-weight: 700;
+  margin: 0 0 25px 0;
+}
+
+.content-section h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.content-section p {
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: justify;
+  margin-bottom: 15px;
+}
+
+.image-container {
+  background-color: #F4D3D3;
+  padding: 20px;
+  border-radius: 16px;
+  margin: 25px 0;
+  text-align: center;
+}
+
+.director-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.image-caption {
+  font-size: 14px;
+  font-style: italic;
+  margin-top: 10px;
+  color: #333333;
+}
+.filmography-container {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 30px;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.filmography-title {
+  font-family: 'Inter', Arial, sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.filmography-list {
+  list-style-type: decimal;
+  padding-left: 0;
+  margin: 0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.film-item {
+  font-family: 'Inter', Arial, sans-serif;
+  font-size: 14px;
+  color: #111111;
+  padding: 14px 20px;
+  list-style-position: inside;
+}
+
+.film-item:first-child{
+    background-color:  #FCF5E9;
+}
+
+.film-item:not(:last-child) {
+  border-bottom: 2px solid #C9A5AA;
+}
+
+.film-item:nth-child(even) {
+  background-color: #FCE9E9;
+}
+
+.film-item.featured-row {
+  background-color: #fffbf0;
+}
+
+.site-footer {
+  margin-top: 50px;
+  background-color: #f4d3d3;
+  text-align: center;
+  font-size: 14px;
+  color: #111111;
+  padding: 20px 0;
+  margin: 20px -40px 0;
+}
